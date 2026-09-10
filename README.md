@@ -1,8 +1,8 @@
-### 👋 你好，我是 Jett（邹晓东）
+### 👋 您好,我是Shawn
 
 后端工程师，自托管（self-hosted）爱好者，最近多了一个身份：用代码给孩子做学习工具的爸爸。
 
-- ☕ **后端主力栈：Java** —— Spring / Spring Boot、Dubbo、Netty、Kafka、Elasticsearch，持续学习分布式与高并发架构
+- ☕ **后端主力栈：Java** —— Spring / Spring Boot、Cloud、Netty、Kafka、Elasticsearch，持续学习分布式与高并发架构
 - 🐍 **也写 Python** —— FastAPI + SQLite，用最少的依赖把想法快速变成能长期运行的服务
 - 🟢 **前端够用就好** —— Vue / Nuxt，能独立完成从界面、接口到部署的全栈闭环
 - 🏠 **爱把服务跑在自己的机器上** —— 阿里云 ECS + nginx + systemd，端口、备份、开机自启全部自己掌控
@@ -19,7 +19,7 @@
 
 ### 🛠 技术关键词
 
-`Java` `Spring Boot` `Dubbo` `Netty` `Kafka` `Elasticsearch` `Python` `FastAPI` `SQLite` `Vue` `Nuxt` `nginx` `systemd` `Linux 运维` `FSRS`
+`Java` `Spring Boot` `Spring Cloud` `Netty` `Kafka` `Elasticsearch` `Python` `FastAPI` `SQLite` `Vue` `Nuxt` `nginx` `systemd` `Linux 运维` `FSRS`
 
 ### 📊 GitHub 数据
 
@@ -35,5 +35,3 @@
 ### 📫 联系我
 
 欢迎在任意仓库通过 **Issues** 交流技术问题，也欢迎一起讨论英语学习工具和自托管部署的各种折腾。
-
-> 💡 这个特殊仓库的 README 会展示在我的 [GitHub 个人主页](https://github.com/JettZou99)。
