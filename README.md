@@ -1,37 +1,67 @@
-### 👋 您好,我是Shawn
+### 👋 你好，我是 Jett（邹晓东）
 
-后端工程师，自托管（self-hosted）爱好者，最近多了一个身份：用代码给孩子做学习工具的爸爸。
+一名从 **2018 年**持续活跃在 GitHub 的 Java 后端工程师，近几年解锁了「全栈老爸」身份 —— 工作里写分布式与中间件，生活中用代码给孩子做学习工具，并坚持自托管部署。
 
-- ☕ **后端主力栈：Java** —— Spring / Spring Boot、Cloud、Netty、Kafka、Elasticsearch，持续学习分布式与高并发架构
-- 🐍 **也写 Python** —— FastAPI + SQLite，用最少的依赖把想法快速变成能长期运行的服务
-- 🟢 **前端够用就好** —— Vue / Nuxt，能独立完成从界面、接口到部署的全栈闭环
-- 🏠 **爱把服务跑在自己的机器上** —— 阿里云 ECS + nginx + systemd，端口、备份、开机自启全部自己掌控
+### 🧒 2026：给孩子做的学习系统（私有仓库）
 
-### 🚀 正在做的事
+围绕「孩子在家学什么、怎么坚持」这个真实需求，一年内做了 4 个独立系统，全部部署在自己的阿里云 ECS 上：
 
-**TypeWords**（私有项目）—— 一个给孩子用的英语单词练习网站，在开源版本上二次开发：
+| 项目 | 技术栈 | 解决的问题 |
+| --- | --- | --- |
+| **cplus-learning** | Flask + 原生 JS + SQLite | GESP C++ 少儿编程学习与考级练习 |
+| **pk-words** | Flask + Vue 3 + SRS | 英语单词 PK、教材同步、间隔重复背单词 |
+| **TypeWords** | Nuxt 4 + FastAPI + SQLite | 打字记单词，含登录 / 积分签到 / 积分商城 / FSRS 复习，240+ 本单词库 |
+| **zNote** | Flask + Vue 3 + SQLite | 纯笔记应用，一处部署随处可用 |
 
-- Nuxt 4 静态前端 + FastAPI + SQLite，**无 Docker、单目录部署**，适配 Rocky Linux 8.10（SELinux / firewalld）
-- 用户名密码登录（JWT access/refresh 双令牌）、积分体系（签到、学习发分、每日上限、幂等上报）
-- 积分商城：奖品的增删改查、积分兑换、库存与兑换记录
-- 基于 **FSRS 间隔重复算法**安排复习计划，已内置 240+ 本单词库与新概念文章
-- 下一步：学习中心数据看板（各题型正确率、未来复习量、学习趋势）
+配套实践：nginx 反代 + systemd 开机自启 + SQLite WAL 备份 + SELinux/firewalld 加固 + shell 服务管理脚本，全套运维不依赖 Docker。
 
-### 🛠 技术关键词
+### ☕ 老本行：Java 分布式与中间件
 
-`Java` `Spring Boot` `Spring Cloud` `Netty` `Kafka` `Elasticsearch` `Python` `FastAPI` `SQLite` `Vue` `Nuxt` `nginx` `systemd` `Linux 运维` `FSRS`
+95 个仓库中 **66 个为原创**，语言以 **Java（44 个仓库）** 为主，实战覆盖：
+
+- **微服务与治理**：Dubbo、Spring Boot、服务治理平台、统一 API 网关与路由
+- **消息与流处理**：Kafka、RabbitMQ 治理平台、Storm
+- **网络编程**：Netty、手写 RPC 框架
+- **基础设施**：ZooKeeper、Elasticsearch、MyBatis、并发编程
+- **可观测性**：日志中心、APM 调用跟踪、挡板（mock）系统
+- 另有爬虫（京东 / 拼多多 / 淘宝 / 车牌摇号）、IDEA 插件（Java Agent 导出 class）等折腾记录
+
+### 🧰 技术关键词
+
+<p>
+<img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img alt="Spring Boot" src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+<img alt="Dubbo" src="https://img.shields.io/badge/Apache%20Dubbo-2496ED?style=for-the-badge&logo=apache&logoColor=white" />
+<img alt="Netty" src="https://img.shields.io/badge/Netty-444444?style=for-the-badge&logo=netty&logoColor=white" />
+<img alt="Kafka" src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
+<img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+<img alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
+<img alt="Vue" src="https://img.shields.io/badge/Vue%203-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" />
+<img alt="Nuxt" src="https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxtdotjs&logoColor=black" />
+<img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+<img alt="nginx" src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
+<img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+</p>
+
+### 📚 长期主义的学习轨迹
+
+- 📖 [**LeetCode**](https://github.com/JettZou99/LeetCode) —— 持续刷题，保持手感
+- 🏅 [**NOIP**](https://github.com/JettZou99/NOIP) —— 信息学奥赛，自己学完教孩子
 
 ### 📊 GitHub 数据
 
 <p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=JettZou99&show_icons=true&theme=vue&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JettZou99&layout=compact&theme=vue&hide_border=true" alt="Top Languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=JettZou99&show_icons=true&theme=vue&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JettZou99&layout=compact&theme=vue&hide_border=true&langs_count=10" alt="Top Languages" />
 </p>
 
 <p>
   <img src="https://streak-stats.demolam.com/?user=JettZou99&theme=vue&hide_border=true" alt="GitHub Streak" />
 </p>
 
-### 📫 联系我
+### 📫 联系
 
-欢迎在任意仓库通过 **Issues** 交流技术问题，也欢迎一起讨论英语学习工具和自托管部署的各种折腾。
+欢迎在任意公开仓库通过 **Issues** 交流：Java 分布式 / 少儿编程与英语启蒙 / 自托管部署，都可以聊。
+
+> 💡 这个与账号同名的特殊仓库，其 README 会展示在我的 [GitHub 主页](https://github.com/JettZou99)。
